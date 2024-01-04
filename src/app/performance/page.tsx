@@ -1,9 +1,15 @@
+import Hero from "@/components/hero";
 import React from "react";
+import performanceImage from "../../../public/performance.jpg";
 
 const Performance = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold">Performance</h1>
+      <Hero
+        imgAlt="Landing"
+        imgData={performanceImage}
+        title="This Is Performance Page"
+      />
     </div>
   );
 };

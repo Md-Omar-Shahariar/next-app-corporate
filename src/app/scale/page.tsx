@@ -1,9 +1,10 @@
+import Hero from "@/components/hero";
 import React from "react";
-
+import scaleImage from "../../../public/scale.jpg";
 const Scale = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold">Scale</h1>
+      <Hero imgAlt="Landing" imgData={scaleImage} title="This Is Scale Page" />
     </div>
   );
 };

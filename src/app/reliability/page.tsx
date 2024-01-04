@@ -1,9 +1,15 @@
+import Hero from "@/components/hero";
 import React from "react";
+import reliabilityImage from "../../../public/reliability.jpg";
 
 const Reliability = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold">Reliability</h1>
+      <Hero
+        imgAlt="Landing"
+        imgData={reliabilityImage}
+        title="This Is Reliability Page"
+      />
     </div>
   );
 };
